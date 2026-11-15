@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive icon foreground: lime tote with a grove check, inside the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.8"
+        android:scaleY="0.8">
+        <path
+            android:pathData="M42,46V38a12,12 0,0 1,24 0v8"
+            android:strokeWidth="6"
+            android:strokeColor="#D4F36A"
+            android:strokeLineCap="round" />
+        <path
+            android:fillColor="#D4F36A"
+            android:pathData="M30,46h48a4,4 0,0 1,4 3.6l3,30a6,6 0,0 1,-6 6.4H29a6,6 0,0 1,-6 -6.4l3,-30A4,4 0,0 1,30 46z" />
+        <path
+            android:pathData="M42,66l8,8 16,-16"
+            android:strokeWidth="6.5"
+            android:strokeColor="#1E4A3C"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+    </group>
+</vector>

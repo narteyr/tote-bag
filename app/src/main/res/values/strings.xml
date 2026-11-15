@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">tote</string>
+    <string name="weekly_shop">Weekly shop</string>
+    <string name="tote_logo">tote logo</string>
+    <string name="add_new_item">add new item</string>
+    <string name="new_item">"New Item "</string>
+    <string name="increase_quantity">Increase quantity</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="update">update</string>
+    <string name="edit_item">Edit Item</string>
+    <string name="left">%1$d left</string>
+</resources>

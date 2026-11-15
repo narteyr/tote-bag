@@ -1,0 +1,11 @@
+
+Task: Build a shopping list app, where users can add list of items to shop, and mark which
+item is bought.
+
+
+// recommended architecture
+1. splash screen
+2. shopping list composable
+3. navigation with navHost
+4. shopping list view model
+5. room database

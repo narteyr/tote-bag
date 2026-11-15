@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Empty state: open lime tote, empty interior visible, soft shadow and sparkles. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp" android:height="140dp"
+    android:viewportWidth="160" android:viewportHeight="140">
+
+    <!-- ground shadow -->
+    <path android:fillColor="#1E4A3C" android:fillAlpha="0.10"
+        android:pathData="M34,124a46,6 0,1 0,92 0a46,6 0,1 0,-92 0z"/>
+
+    <!-- handle (behind the opening) -->
+    <path android:strokeColor="#1E4A3C" android:strokeWidth="6" android:strokeLineCap="round"
+        android:pathData="M60,57V42a20,20 0,0 1,40 0v15"/>
+
+    <!-- empty interior seen through the opening -->
+    <path android:fillColor="#9DBF3F"
+        android:pathData="M46,56a34,7 0,1 0,68 0a34,7 0,1 0,-68 0z"/>
+    <path android:fillColor="#1E4A3C" android:fillAlpha="0.18"
+        android:pathData="M48,56a32,5.5 0,0 1,64 0a32,3 0,0 0,-64 0z"/>
+
+    <!-- bag body (front rim curves down) -->
+    <path android:fillColor="#D4F36A"
+        android:pathData="M46,56a34,7 0,0 0,68 0l4.5,54.5a7,7 0,0 1,-7,7.5H43.5a7,7 0,0 1,-7,-7.5z"/>
+    <!-- right-side shading -->
+    <path android:fillColor="#000000" android:fillAlpha="0.06"
+        android:pathData="M106,60.5L114,56l4.5,54.5a7,7 0,0 1,-7,7.5H104z"/>
+    <!-- stitched band -->
+    <path android:strokeColor="#B9D94F" android:strokeWidth="2" android:strokeLineCap="round"
+        android:pathData="M42,72Q80,80 118,72"/>
+
+    <!-- sparkles -->
+    <path android:fillColor="#8A9A8F"
+        android:pathData="M36,30Q36,36 42,36Q36,36 36,42Q36,36 30,36Q36,36 36,30z"/>
+    <path android:fillColor="#8A9A8F"
+        android:pathData="M126,39.5Q126,44 130.5,44Q126,44 126,48.5Q126,44 121.5,44Q126,44 126,39.5z"/>
+    <path android:fillColor="#8A9A8F" android:fillAlpha="0.6"
+        android:pathData="M128,26a2,2 0,1 0,4 0a2,2 0,1 0,-4 0z"/>
+    <path android:fillColor="#8A9A8F" android:fillAlpha="0.6"
+        android:pathData="M30.5,52a1.5,1.5 0,1 0,3 0a1.5,1.5 0,1 0,-3 0z"/>
+</vector>
