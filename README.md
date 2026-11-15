@@ -8,6 +8,18 @@ A shopping list for Android, built with Jetpack Compose. Add what you need, grou
   <img src="docs/screenshots/shopping_list_dark.png" width="300" alt="Shopping list, dark theme" />
 </p>
 
+## Download
+
+Get the latest APK from the [**Releases page**](https://github.com/narteyr/tote-bag/releases/latest).
+
+To install it on an Android phone (Android 7.0 or newer):
+
+1. Download `tote-v1.0-debug.apk` on the phone.
+2. Open it. If Android blocks it, allow your browser or file manager to **Install unknown apps** when prompted.
+3. Tap **Install**.
+
+This is a debug build, meant for trying the app out. It isn't on the Play Store.
+
 ## Screenshots
 
 ### Launch
